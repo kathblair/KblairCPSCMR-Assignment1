@@ -3,6 +3,8 @@ How to run Kath's Assignment 1:
 1. Print out nest.jpg
 2. load KBlairAssignment1 in Unity
 3. Build and run (can use a laptop camera or build for Android; not testing with iOS)
+4. Place the nest image in front of the camera, needs to be fairly visible (not at too steep of an angle).
+The bird will keep moving through its steps if the app loses the tracker, but it only repeats once.
 
 Credits:
 I used this pacakge of birds: https://assetstore.unity.com/packages/3d/characters/animals/living-birds-15649
