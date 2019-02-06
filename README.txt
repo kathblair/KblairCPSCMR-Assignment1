@@ -10,5 +10,5 @@ I had wanted to do a couple of other things but I wasn't able to make the time w
 -- make that rotation smooth and nice.
 - There are a bunch of animations so have it fly or hop around its nest instead of ... sliding.
 
-I know these things shouldn't / wouldn't have been super difficult, but in any case I was not able to get them done this time.
+I know these things shouldn't be super difficult, but I was having a lot of trouble getting the bird to rotate at all, and I'm not sure why. The way I had rotated objects successfully in doing tutorials didn't work, and neither did a bunch of other things I tried. So since it wouldn't be facing the correct direction, it didn't make sense to me to try and get it to hop or fly while doing it.
 
