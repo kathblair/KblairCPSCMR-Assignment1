@@ -71,19 +71,20 @@ public class Cardinal1 : MonoBehaviour
         if (other.gameObject.CompareTag("Spot1"))
         {
             
-            transform.Rotate(0, 90, 0);
+            
             //set the target to spot2.
             moveTarget = secondSpot.transform.position;
+            transform.LookAt(moveTarget);
 
         }else if (other.gameObject.CompareTag("Spot2"))
         {
-            transform.Rotate(0, 0, 0);
             moveTarget = thirdSpot.transform.position;
+            transform.LookAt(moveTarget);
         }
         else if (other.gameObject.CompareTag("Spot3"))
         {
-            transform.Rotate(0, -90, 0);
             moveTarget = fourthSpot.transform.position;
+            transform.LookAt(moveTarget);
         }
         else if (other.gameObject.CompareTag("Spot4"))
         {
